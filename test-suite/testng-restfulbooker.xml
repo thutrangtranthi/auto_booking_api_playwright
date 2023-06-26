@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker Test Suite">
+    <test name="Create Token Tests">
+        <classes>
+            <class name="com.api.tests.auth.CreateTokenTest"></class>
+        </classes>
+    </test>
+    <test name="Get List Booking Id Tests">
+        <classes>
+            <class name="com.api.tests.booking.GetListBookingIdTest"></class>
+        </classes>
+    </test>
+    <test name="Get Booking Tests">
+        <classes>
+            <class name="com.api.tests.booking.GetBookingTest"></class>
+        </classes>
+    </test>
+    <test name="Create Booking Tests">
+        <classes>
+            <class name="com.api.tests.booking.CreateBookingTest"></class>
+        </classes>
+    </test>
+    <test name="Update Booking Tests">
+        <classes>
+            <class name="com.api.tests.booking.UpdateBookingTest"></class>
+        </classes>
+    </test>
+    <test name="Partial Update Booking Tests">
+        <classes>
+            <class name="com.api.tests.booking.PartialUpdateBookingTest"></class>
+        </classes>
+    </test>
+    <test name="Delete Booking Tests">
+        <classes>
+            <class name="com.api.tests.booking.DeleteBookingTest"></class>
+        </classes>
+    </test>
+</suite>
